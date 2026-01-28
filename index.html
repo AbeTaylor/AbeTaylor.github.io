@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fury FC</title>
+  <meta name="description" content="From first kick to future stars. A path for every player at Fury FC." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top Nav -->
+  <header class="site-header" role="banner">
+    <div class="container nav-row">
+      <a class="brand" href="#">
+        <img class="brand-logo" src="img/fury-logo.svg" alt="Fury FC" />
+        <span class="brand-name">FURY FC</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#recreation">Recreation</a>
+        <a class="nav-link" href="#select">Select</a>
+        <a class="nav-link" href="#travel">Travel</a>
+        <a class="nav-link" href="#about">About Us</a>
+      </nav>
+
+      <a class="btn btn-primary btn-nav" href="#register">Register Now</a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg" style="background-image:url('img/hero.jpg');"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>From First Kick<br/>to Future Stars</h1>
+          <p>A Path for Every Player: Welcome to Fury FC.</p>
+
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#recreation">Recreation Soccer</a>
+            <a class="btn btn-primary" href="#select">Select Soccer</a>
+            <a class="btn btn-primary" href="#travel">Travel Soccer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Player Pathway -->
+    <section class="section section-pathway">
+      <div class="container">
+        <div class="section-title">
+          <h2>The Player Pathway</h2>
+          <p>Discover Your Journey with Fury FC.</p>
+        </div>
+
+        <div class="pathway-ribbon" role="group" aria-label="Player pathway">
+          <div class="pathway-step">
+            <div class="pathway-age">U4–U6</div>
+            <div class="pathway-label">Play</div>
+          </div>
+          <div class="pathway-step">
+            <div class="pathway-age">U7–U9</div>
+            <div class="pathway-label">Learn</div>
+          </div>
+          <div class="pathway-step is-highlight">
+            <div class="pathway-age">U10–U12</div>
+            <div class="pathway-label">Compete</div>
+          </div>
+          <div class="pathway-step">
+            <div class="pathway-age">U13–U19</div>
+            <div class="pathway-label">Prepare</div>
+          </div>
+        </div>
+
+        <p class="pathway-sub">
+          From beginners to elite, find the perfect program for your child’s growth and passion.
+        </p>
+      </div>
+    </section>
+
+    <!-- Program Cards -->
+    <section class="section section-programs">
+      <div class="container">
+        <div class="cards-3">
+          <!-- Recreation -->
+          <article id="recreation" class="program-card">
+            <div class="program-media" style="background-image:url('img/rec.jpg');"></div>
+            <div class="program-overlay"></div>
+
+            <div class="program-content">
+              <h3>Recreation Soccer</h3>
+              <p>Fun and Friendships</p>
+              <a class="btn btn-primary btn-sm" href="#recreation-details">Learn More <span class="arrow">›</span></a>
+            </div>
+          </article>
+
+          <!-- Select -->
+          <article id="select" class="program-card">
+            <div class="program-media" style="background-image:url('img/select.jpg');"></div>
+            <div class="program-overlay"></div>
+
+            <div class="program-content">
+              <h3>Select Soccer</h3>
+              <p>Develop and Compete</p>
+              <a class="btn btn-primary btn-sm" href="#select-details">Learn More <span class="arrow">›</span></a>
+            </div>
+          </article>
+
+          <!-- Travel -->
+          <article id="travel" class="program-card">
+            <div class="program-media" style="background-image:url('img/travel.jpg');"></div>
+            <div class="program-overlay"></div>
+
+            <div class="program-content">
+              <h3>Travel Soccer</h3>
+              <p>Train and Excel</p>
+              <a class="btn btn-primary btn-sm" href="#travel-details">Learn More <span class="arrow">›</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fury Closet -->
+    <section class="section section-closet" id="closet">
+      <div class="container closet-wrap">
+        <div class="closet-title">
+          <h2>The Fury Closet</h2>
+          <div class="closet-tagline">Support. Share. Save.</div>
+        </div>
+
+        <div class="closet-bar">
+          <div class="closet-item">
+            <div class="closet-icon" aria-hidden="true">⚙️</div>
+            <div class="closet-text">
+              <div class="closet-head">Donate Gear</div>
+            </div>
+          </div>
+
+          <div class="closet-divider" aria-hidden="true"></div>
+
+          <div class="closet-item">
+            <div class="closet-icon" aria-hidden="true">💵</div>
+            <div class="closet-text">
+              <div class="closet-head">$5 Gear Purchases</div>
+            </div>
+          </div>
+
+          <div class="closet-divider" aria-hidden="true"></div>
+
+          <div class="closet-item">
+            <div class="closet-icon" aria-hidden="true">⚽</div>
+            <div class="closet-text">
+              <div class="closet-head">Gear Reused:</div>
+              <div class="closet-metric"><span id="gearCount">528</span> items</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="closet-cta">
+          <a class="btn btn-primary" href="#closet-details">Get Involved <span class="arrow">›</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Parents Say -->
+    <section class="parents">
+      <div class="parents-bg" style="background-image:url('img/parents.jpg');"></div>
+      <div class="parents-overlay"></div>
+
+      <div class="container parents-grid">
+        <div class="parents-card">
+          <h2>What Parents Say</h2>
+          <blockquote>
+            “Fury FC has been an incredible experience for our child. They’ve grown so much on and off the field.
+            We feel like part of a family.”
+          </blockquote>
+          <div class="parents-attrib">— Jessica M., Fury Parent</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer-bar">
+        <div class="container footer-row">
+          <div class="footer-left">Join the Fury Family</div>
+
+          <div class="footer-social" aria-label="Social links">
+            <a class="social" href="#" aria-label="Facebook">f</a>
+            <a class="social" href="#" aria-label="Instagram">◎</a>
+            <a class="social" href="#" aria-label="YouTube">▶</a>
+          </div>
+
+          <a id="register" class="btn btn-primary btn-footer" href="#">Register Now</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
